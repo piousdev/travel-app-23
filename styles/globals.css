@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border: 1px solid #212832
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.btn {
+  border: var(--border);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #212832;
+  color: #fff;
+}
+
+.Hero-Decore {
+  width: 766px;
+  Height: 873px;
+}
+
+.heading-text {
+  width: 11ch;
+}
+
+.paragraph-text {
+  width: 50ch;
+  color: #5e6282;
+  line-height: 2;
+  margin-top: 1.5rem;
+}
+
+.btn-cta {
+  border-radius: 10px;
+  background: #f1a501;
+  box-shadow: 0 20px 35px 0 rgba(241, 165, 1, 0.15);
+}
+
+.btn-cta:hover {
+  background: #a97301;
+  box-shadow: 0 20px 35px 0 rgba(241, 165, 1, 0.15);
+}
+
+.btn-text {
+  color: #686D77;
+  font-size: 17px;
+  font-family: Poppins, serif;
+  font-weight: 500;
+}
+
+.btn-text:hover {
+  color: #000;
+}
+
+.traveller {
+  z-index: 1;
+  right: -500px;
+  top: 30px;
+}
+
+.plane-right {
+  position: absolute;
+  left: -140px;
+  top: 90px;
+  z-index: -2;
+}
+
+.border-line {
+  left: 300px;
+  top: -15px;
+  z-index: -1;
+}
+
+
+/* Services */
+.plus {
+  right: 80px;
+}
+
+.service-heading {
+  font-family: Poppins, serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.image-div {
+  width: 5.75rem;
+  height: 4.875rem;
+}
+
+.image-div-2 {
+  width: 10.43rem;
+  height: 9.58325rem;
+}
+
+.service-subHeading {
+  color: #1e1d4c;
+  text-align: center;
+  font-sze: 1.25rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.service-paragraph {
+  color: #5e6282;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 1.625rem;
+  width: 19ch;
+  margin-top: 1rem;
+}
+
+.div-active {
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  box-shadow:  0px 2px 3px 0px rgba(0, 0, 0, 0.00), 0px 8px 7px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 39px 25px 0px rgba(0, 0, 0, 0.01), 0px 65px 47px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+  padding: 2rem;
+}

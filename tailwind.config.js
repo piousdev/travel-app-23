@@ -7,6 +7,31 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['Volkhov', 'ui-serif', 'Georgia', 'Cambria', 'serif'],
+        poppins: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+      colors: {
+        primary: {
+            DEFAULT: '#212832',
+        },
+        secondary: {
+            DEFAULT: '#FF7152',
+        },
+        accent: {
+            DEFAULT: '#181E4B',
+        },
+        extra: {
+            DEFAULT: '#181E4B',
+        },
+        't-color': {
+            DEFAULT: '#5E6282',
+        },
+        shades: {
+          white: '#FFFFFF',
+          black: '#000000',
+        },
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
